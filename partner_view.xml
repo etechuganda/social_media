@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<openerp>
+	<data>
+
+		<record id="view_socialmedia_form" model="ir.ui.view" >
+			<field name="name">res.partner.address.form.inherit</field>
+			<field name="model">res.partner</field>
+			<field name="type">form</field>
+			<field name="inherit_id" ref="base.view_partner_form"/>
+			<field name="arch" type="xml">
+				<field name="email" position="after" >
+				   	<field name="twitter" placeholder="Twitter Account"/>
+					  <field name="skype" placeholder="Skype Account" />
+					  <field name="linkedin" placeholder="Linkedin Account" />
+					  <field name="googleplus" placeholder="Google Plus Account" />
+					  <field name="youtube" placeholder="Youtube Account"/>
+				</field>
+			</field>
+		</record>
+		</data>
+</openerp>
