@@ -9,7 +9,7 @@
 			<field name="inherit_id" ref="base.view_partner_form"/>
 			<field name="arch" type="xml">
 				<field name="email" position="after" >
-				   	<field name="twitter" placeholder="Twitter Account"/>
+				   	<field name="twitter" placeholder="Twitter Account" widget="url"/>
 					  <field name="skype" placeholder="Skype Account" />
 					  <field name="linkedin" placeholder="Linkedin Account" />
 					  <field name="googleplus" placeholder="Google Plus Account" />
