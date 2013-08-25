@@ -11,7 +11,7 @@
 				<field name="email" position="after" >
 				   	<field name="twitter" placeholder="Twitter Account" widget="url"/>
 				   	<field name="facebook" placeholder="Facebook Account" widget="url"/>
-				  	<field name="skype" placeholder="Skype Account" />
+				  	<field name="skype" placeholder="Skype Account" widget="url"/>
 					<field name="linkedin" placeholder="Linkedin Account" widget="url"/>
 					<field name="googleplus" placeholder="Google Plus Account" widget="url"/>
 					<field name="youtube" placeholder="Youtube Account" widget="url"/>
