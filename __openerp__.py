@@ -25,7 +25,6 @@
     'author': 'ICT Association Uganda (ICTAU)',
     'website': 'http://ictau.ug',
     'version': '1.0',
-    'depends': [''],
     'data': [
         'partner_view.xml'
     ],
